@@ -1,7 +1,7 @@
-import axios from 'axios';    
+import axios from 'axios';   
 
 const apiKey = 'testkey';
-const apiUrl = 'https://617c09aad842cf001711c200.mockapi.io/v1/';
+const apiUrl = 'https://617c09aad842cf001711c200.mockapi.io/v1';
 
 axios.interceptors.request.use(
   function (config) {
@@ -14,9 +14,18 @@ axios.interceptors.request.use(
   },
   function (error) {
     // handle these errors nicely
-    console.log(error);
     return Promise.reject(error);
   }
+);
+
+function errorResponseHandler(error) {
+  alert(`Er is iets fout gegaan tijdens het ophalen van de data: ${error.message}`);
+}
+
+// apply interceptor on response
+axios.interceptors.response.use(
+    response => response,
+    errorResponseHandler
 );
 
 export default {
