@@ -8,7 +8,7 @@
 PART 1
 V Install react
 V Create a mockup of the homepage
-* Create rest service (axios instance with optional the apikey baked into the service)
+V Create rest service (axios instance with optional the apikey baked into the service)
 * Create local store (I think redux in react (vuex in vue))
 * Get the information of the companies
 * Create the overview of companies (pagination is optional but preferred)

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -33,7 +32,7 @@ function App() {
             <address class="mb-4">
               97018 Lilly View - West Esteban
             </address>
-            <a href="#" className="underline">See details</a>
+            <a href="http://www.google.nl" className="underline">See details</a>
           </div>
 
           <div className="search-result mb-8">
@@ -42,7 +41,7 @@ function App() {
             <address class="mb-4">
               97018 Lilly View - West Esteban
             </address>
-            <a href="#" className="underline">See details</a>
+            <a href="http://www.google.nl" className="underline">See details</a>
           </div>
 
           <div className="search-result mb-8">
@@ -51,7 +50,7 @@ function App() {
             <address class="mb-4">
               97018 Lilly View - West Esteban
             </address>
-            <a href="#" className="underline">See details</a>
+            <a href="http://www.google.nl" className="underline">See details</a>
           </div>
 
           <div className="search-result mb-8">
@@ -60,7 +59,7 @@ function App() {
             <address class="mb-4">
               97018 Lilly View - West Esteban
             </address>
-            <a href="#" className="underline">See details</a>
+            <a href="http://www.google.nl" className="underline">See details</a>
           </div>
 
           <div className="search-result mb-8">
@@ -69,7 +68,7 @@ function App() {
             <address class="mb-4">
               97018 Lilly View - West Esteban
             </address>
-            <a href="#" className="underline">See details</a>
+            <a href="http://www.google.nl" className="underline">See details</a>
           </div>
 
           <div className="search-result mb-8">
@@ -78,7 +77,7 @@ function App() {
             <address class="mb-4">
               97018 Lilly View - West Esteban
             </address>
-            <a href="#" className="underline">See details</a>
+            <a href="http://www.google.nl" className="underline">See details</a>
           </div>
 
           <div className="search-result mb-8">
@@ -87,7 +86,7 @@ function App() {
             <address class="mb-4">
               97018 Lilly View - West Esteban
             </address>
-            <a href="#" className="underline">See details</a>
+            <a href="http://www.google.nl" className="underline">See details</a>
           </div>
 
           <div className="search-result mb-8">
@@ -96,7 +95,7 @@ function App() {
             <address class="mb-4">
               97018 Lilly View - West Esteban
             </address>
-            <a href="#" className="underline">See details</a>
+            <a href="http://www.google.nl" className="underline">See details</a>
           </div>
 
           <div className="search-result mb-8">
@@ -105,7 +104,7 @@ function App() {
             <address class="mb-4">
               97018 Lilly View - West Esteban
             </address>
-            <a href="#" className="underline">See details</a>
+            <a href="http://www.google.nl" className="underline">See details</a>
           </div>
           
 
