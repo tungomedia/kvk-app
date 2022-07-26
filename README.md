@@ -4,7 +4,7 @@
 * ~~Homepage -> layout + logo + searchbar + results~~
 * Result page -> layout + detail view of the company
 
-## Technical directions
+## Technical directions ( I started with creating this list of things that are needed)
 PART 1
 * ~~Install react~~
 * ~~Create a mockup of the homepage~~
@@ -35,13 +35,6 @@ PART 5
 * Show last visited companies (with link to detail page) (self made up UI improvement)
 
 
-## Documentation
-* In the components folder are the components i created for the navbar, searchbar and searchresults
-* The routes directory is were i wanted to start with routing for the detail page
-* the services directory contains the restApi service
-* The app starts in the index.js / app.js file
-
-
 ## problems along the way:
 
 -   In general i mostly ran into the issue of finding out how something should be done in react, as I have told in my motivation, I have a lot of experience with Vuejs, not so much with react.
@@ -54,6 +47,12 @@ PART 5
 
 - I have installed toast to be able to nicely show an error when the api results in a 500 error, it became an alert because of a lack of time..
 
+
+## Documentation
+* In the components folder are the components i created for the navbar, searchbar and searchresults
+* The routes directory is were i wanted to start with routing for the detail page
+* the services directory contains the restApi service
+* The app starts in the index.js / app.js file
 
 # REACT APP DIRECTIONS
 
