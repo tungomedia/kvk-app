@@ -15,7 +15,7 @@ V Create the overview of companies (pagination is optional but preferred)
 * Create an UI test (haven't done this before but i think in cypress?)
 
 PART 2
-* Create Search functionality
+V Create Search functionality
 * Handle 500 error in the rest service (so it works everywhere, not only on the search)
 
 PART 3
@@ -27,7 +27,7 @@ PART 4
 * Create a test to check if the search is working properly (haven't done this before, but i think a unit test?)
 
 PART 5
-* App optimization (already did this in step 1 (redux), don't vall the server if it isn't necessary)
+V App optimization (already did this in step 1, don't call the server if it isn't necessary)
 * Add pagination
 * Add sorting on different columns
 * Show last searches (with link to the search) (self made up UI improvement)

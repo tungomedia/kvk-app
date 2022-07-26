@@ -1,7 +1,7 @@
-import axios from 'axios';    
+import axios from 'axios';   
 
 const apiKey = 'testkey';
-const apiUrl = 'https://617c09wdaad842cf001711c200.mockapi.io/v1/';
+const apiUrl = 'https://617c09aad842cf001711c200.mockapi.io/v1';
 
 axios.interceptors.request.use(
   function (config) {
