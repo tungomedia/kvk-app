@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
 class SearchResults extends React.Component {
 
     handleBackButton(e) {
@@ -10,7 +12,7 @@ class SearchResults extends React.Component {
     render() {
         let backButton = '';
         if (this.props.showBackButton) {
-          backButton = <a href="" className="font-sans text-lg font-bold mb-3" onClick={this.handleBackButton.bind(this)}>&larr; Ga terug naar het overzicht</a>
+          backButton = <Link to="/" onClick={this.handleBackButton.bind(this)} className="font-sans text-lg font-bold mb-3">&larr; Ga terug naar het overzicht</Link>
         }
 
         return (
@@ -27,7 +29,7 @@ class SearchResults extends React.Component {
                         <address className="mb-4">
                         {company.zipCode} {company.streetName} - {company.city}
                         </address>
-                        <a href={`#companies/${company.id}/details`} className="underline">See details</a>
+                        <Link to={`/companies/${company.id}/details`} className="underline">See details</Link>
                     </div>
                 ))}
             </div>
