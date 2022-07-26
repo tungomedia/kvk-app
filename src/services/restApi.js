@@ -28,10 +28,12 @@ axios.interceptors.response.use(
     errorResponseHandler
 );
 
-export default {
+const output = {
   get: axios.get,
   post: axios.post,
   put: axios.put,
   delete: axios.delete,
   patch: axios.patch
 };
+
+export default output;
