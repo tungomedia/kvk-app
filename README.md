@@ -9,9 +9,9 @@ PART 1
 V Install react
 V Create a mockup of the homepage
 V Create rest service (axios instance with optional the apikey baked into the service)
-* Create local store (I think redux in react (vuex in vue))
-* Get the information of the companies
-* Create the overview of companies (pagination is optional but preferred)
+X Create local store (I think redux in react (vuex in vue))
+V Get the information of the companies
+V Create the overview of companies (pagination is optional but preferred)
 * Create an UI test (haven't done this before but i think in cypress?)
 
 PART 2
@@ -33,6 +33,14 @@ PART 5
 * Show last searches (with link to the search) (self made up UI improvement)
 * Show last visited companies (with link to detail page) (self made up UI improvement)
 
+
+# Found problems:
+
+- Choose not to use redux, because of time issues. I am familiar with the vuejs variant (vuex). For now
+    I choose to store the data with the component, ideally i would store it in redux.
+
+
+- My data fetch in the componentDidMount function inside the app.js is called twice, i don;t know why that is.
 
 
 # REACT APP DIRECTIONS
