@@ -19,7 +19,7 @@ axios.interceptors.request.use(
 );
 
 function errorResponseHandler(error) {
-  console.log(error);
+  alert(`Er is iets fout gegaan tijdens het ophalen van de data: ${error.message}`);
 }
 
 // apply interceptor on response
